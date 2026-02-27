@@ -188,6 +188,17 @@
 						1
 					],
 					"returntype": 2
+				},
+				{
+					"name": "ifd_set_parent",
+					"extname": "ifd_set_parent",
+					"calltype": 12,
+					"helpline": "ifd_set_parent(winid)",
+					"hidden": true,
+					"argtypes": [
+						1
+					],
+					"returntype": 2
 				}
 			],
 			"constants": []
