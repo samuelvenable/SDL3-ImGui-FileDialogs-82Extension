@@ -16,206 +16,13 @@
 			"kind": 1,
 			"init": "",
 			"final": "",
-			"functions": [
-				{
-					"name": "ShowMessage",
-					"extname": "show_message",
-					"calltype": 12,
-					"helpline": "ShowMessage(str)",
-					"hidden": false,
-					"argtypes": [
-						1
-					],
-					"returntype": 2
-				},
-				{
-					"name": "ShowQuestion",
-					"extname": "show_question",
-					"calltype": 12,
-					"helpline": "ShowQuestion(str)",
-					"hidden": false,
-					"argtypes": [
-						1
-					],
-					"returntype": 2
-				},
-				{
-					"name": "ShowMessageExt",
-					"extname": "show_message_ext",
-					"calltype": 12,
-					"helpline": "ShowMessageExt(str,but1,but2,but3)",
-					"hidden": false,
-					"argtypes": [
-						1,
-						1,
-						1,
-						1
-					],
-					"returntype": 2
-				},
-				{
-					"name": "GetString",
-					"extname": "get_string",
-					"calltype": 12,
-					"helpline": "GetString(str,def)",
-					"hidden": false,
-					"argtypes": [
-						1,
-						1
-					],
-					"returntype": 1
-				},
-				{
-					"name": "GetInteger",
-					"extname": "get_integer",
-					"calltype": 12,
-					"helpline": "GetInteger(str,def)",
-					"hidden": false,
-					"argtypes": [
-						1,
-						2
-					],
-					"returntype": 2
-				},
-				{
-					"name": "GetOpenFileName",
-					"extname": "get_open_filename",
-					"calltype": 12,
-					"helpline": "GetOpenFileName(filter,fname)",
-					"hidden": false,
-					"argtypes": [
-						1,
-						1
-					],
-					"returntype": 1
-				},
-				{
-					"name": "GetOpenFileNameExt",
-					"extname": "get_open_filename_ext",
-					"calltype": 12,
-					"helpline": "GetOpenFileNameExt(filter,fname,dir,title)",
-					"hidden": false,
-					"argtypes": [
-						1,
-						1,
-						1,
-						1
-					],
-					"returntype": 1
-				},
-				{
-					"name": "GetOpenFileNames",
-					"extname": "get_open_filenames",
-					"calltype": 12,
-					"helpline": "GetOpenFileNames(filter,fname)",
-					"hidden": false,
-					"argtypes": [
-						1,
-						1
-					],
-					"returntype": 1
-				},
-				{
-					"name": "GetOpenFileNamesExt",
-					"extname": "get_open_filenames_ext",
-					"calltype": 12,
-					"helpline": "GetOpenFileNamesExt(filter,fname,dir,title)",
-					"hidden": false,
-					"argtypes": [
-						1,
-						1,
-						1,
-						1
-					],
-					"returntype": 1
-				},
-				{
-					"name": "GetSaveFileName",
-					"extname": "get_save_filename",
-					"calltype": 12,
-					"helpline": "GetSaveFileName(filter,fname)",
-					"hidden": false,
-					"argtypes": [
-						1,
-						1
-					],
-					"returntype": 1
-				},
-				{
-					"name": "GetSaveFileNameExt",
-					"extname": "get_save_filename_ext",
-					"calltype": 12,
-					"helpline": "GetSaveFileNameExt(filter,fname,dir,title)",
-					"hidden": false,
-					"argtypes": [
-						1,
-						1,
-						1,
-						1
-					],
-					"returntype": 1
-				},
-				{
-					"name": "GetDirectory",
-					"extname": "get_directory",
-					"calltype": 12,
-					"helpline": "GetDirectory(dname)",
-					"hidden": false,
-					"argtypes": [
-						1
-					],
-					"returntype": 1
-				},
-				{
-					"name": "GetDirectoryAlt",
-					"extname": "get_directory_alt",
-					"calltype": 12,
-					"helpline": "GetDirectoryAlt(capt,root)",
-					"hidden": false,
-					"argtypes": [
-						1,
-						1
-					],
-					"returntype": 1
-				},
-				{
-					"name": "ifd_load_fonts",
-					"extname": "ifd_load_fonts",
-					"calltype": 12,
-					"helpline": "ifd_load_fonts(dname)",
-					"hidden": true,
-					"argtypes": [
-						1
-					],
-					"returntype": 2
-				},
-				{
-					"name": "ifd_set_parent",
-					"extname": "ifd_set_parent",
-					"calltype": 12,
-					"helpline": "ifd_set_parent(winid)",
-					"hidden": true,
-					"argtypes": [
-						1
-					],
-					"returntype": 2
-				}
-			],
+			"functions": [],
 			"constants": []
 		},
 		{
 			"filename": "SDL3.dll",
 			"origname": "SDL3.dll",
 			"kind": 1,
-			"init": "",
-			"final": "",
-			"functions": [],
-			"constants": []
-		},
-		{
-			"filename": "libfiledialogs.zip",
-			"origname": "libfiledialogs.zip",
-			"kind": 4,
 			"init": "",
 			"final": "",
 			"functions": [],
@@ -229,12 +36,173 @@
 			"final": "",
 			"functions": [
 				{
+					"name": "get_directory",
+					"extname": "get_directory",
+					"calltype": 2,
+					"helpline": "get_directory(dname)",
+					"hidden": false,
+					"argtypes": [
+						2
+					],
+					"returntype": 2
+				},
+				{
+					"name": "get_directory_alt",
+					"extname": "get_directory_alt",
+					"calltype": 2,
+					"helpline": "get_directory_alt(capt,root)",
+					"hidden": false,
+					"argtypes": [
+						2,
+						2
+					],
+					"returntype": 2
+				},
+				{
+					"name": "get_integer",
+					"extname": "get_integer",
+					"calltype": 2,
+					"helpline": "get_integer(str,def)",
+					"hidden": false,
+					"argtypes": [
+						2,
+						2
+					],
+					"returntype": 2
+				},
+				{
+					"name": "get_open_filename",
+					"extname": "get_open_filename",
+					"calltype": 2,
+					"helpline": "get_open_filename(filter,fname)",
+					"hidden": false,
+					"argtypes": [
+						2,
+						2
+					],
+					"returntype": 2
+				},
+				{
+					"name": "get_open_filenames",
+					"extname": "get_open_filenames",
+					"calltype": 2,
+					"helpline": "get_open_filenames(filter,fname)",
+					"hidden": false,
+					"argtypes": [
+						2,
+						2
+					],
+					"returntype": 2
+				},
+				{
+					"name": "get_open_filenames_ext",
+					"extname": "get_open_filenames_ext",
+					"calltype": 2,
+					"helpline": "get_open_filenames_ext(filter,fname,dir,title)",
+					"hidden": false,
+					"argtypes": [
+						2,
+						2,
+						2,
+						2
+					],
+					"returntype": 2
+				},
+				{
+					"name": "get_open_filename_ext",
+					"extname": "get_open_filename_ext",
+					"calltype": 2,
+					"helpline": "get_open_filename_ext(filter,fname,dir,title)",
+					"hidden": false,
+					"argtypes": [
+						2,
+						2,
+						2,
+						2
+					],
+					"returntype": 2
+				},
+				{
+					"name": "get_save_filename",
+					"extname": "get_save_filename",
+					"calltype": 2,
+					"helpline": "get_save_filename(filter,fname)",
+					"hidden": false,
+					"argtypes": [
+						2,
+						2
+					],
+					"returntype": 2
+				},
+				{
+					"name": "get_save_filename_ext",
+					"extname": "get_save_filename_ext",
+					"calltype": 2,
+					"helpline": "get_save_filename_ext(filter,fname,dir,title)",
+					"hidden": false,
+					"argtypes": [
+						2,
+						2,
+						2,
+						2
+					],
+					"returntype": 2
+				},
+				{
+					"name": "get_string",
+					"extname": "get_string",
+					"calltype": 2,
+					"helpline": "get_string(str,def)",
+					"hidden": false,
+					"argtypes": [
+						2,
+						2
+					],
+					"returntype": 2
+				},
+				{
 					"name": "libfiledialogs_init",
 					"extname": "libfiledialogs_init",
 					"calltype": 2,
 					"helpline": "libfiledialogs_init()",
 					"hidden": true,
 					"argtypes": [],
+					"returntype": 2
+				},
+				{
+					"name": "show_message",
+					"extname": "show_message",
+					"calltype": 2,
+					"helpline": "show_message(str)",
+					"hidden": false,
+					"argtypes": [
+						2
+					],
+					"returntype": 2
+				},
+				{
+					"name": "show_message_ext",
+					"extname": "show_message_ext",
+					"calltype": 2,
+					"helpline": "show_message_ext(str,but1,bu2,but3)",
+					"hidden": false,
+					"argtypes": [
+						2,
+						2,
+						2,
+						2
+					],
+					"returntype": 2
+				},
+				{
+					"name": "show_question",
+					"extname": "show_question",
+					"calltype": 2,
+					"helpline": "show_question(str)",
+					"hidden": false,
+					"argtypes": [
+						2
+					],
 					"returntype": 2
 				}
 			],
@@ -1656,6 +1624,15 @@
 		{
 			"filename": "157-NotoSansHK-Regular.otf",
 			"origname": "fonts\\157-NotoSansHK-Regular.otf",
+			"kind": 4,
+			"init": "",
+			"final": "",
+			"functions": [],
+			"constants": []
+		},
+		{
+			"filename": "libfiledialogs.zip",
+			"origname": "libfiledialogs.zip",
 			"kind": 4,
 			"init": "",
 			"final": "",
